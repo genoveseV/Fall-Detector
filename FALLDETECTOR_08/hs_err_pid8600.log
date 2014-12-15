@@ -1,0 +1,100 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=8600, tid=9280
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_31-b05
+# Java VM: Java HotSpot(TM) Client VM (20.6-b01 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x003a8000):  JavaThread "Unknown thread" [_thread_in_vm, id=9280, stack(0x003b0000,0x00400000)]
+
+Stack: [0x003b0000,0x00400000],  sp=0x003ff898,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1335ca]
+V  [jvm.dll+0x12e57b]
+V  [jvm.dll+0x1639e]
+V  [jvm.dll+0x17bdf]
+V  [jvm.dll+0x26cc5]
+V  [jvm.dll+0x27506]
+V  [jvm.dll+0x278b5]
+V  [jvm.dll+0x27949]
+V  [jvm.dll+0x27a0c]
+V  [jvm.dll+0x27a8a]
+V  [jvm.dll+0x27b6d]
+V  [jvm.dll+0x27e39]
+V  [jvm.dll+0x6c383]
+V  [jvm.dll+0x6c75c]
+V  [jvm.dll+0xf9b4c]
+V  [jvm.dll+0x11848b]
+V  [jvm.dll+0x9eb60]
+C  [javaw.exe+0x1657]
+C  [javaw.exe+0x1e2c]
+C  [javaw.exe+0x8614]
+C  [kernel32.dll+0xb729]  GetModuleFileNameA+0x1ba
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x003a8000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9280, stack(0x003b0000,0x00400000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00425000 	C:\Programmi\Java\jre6\bin\javaw.exe
+0x7c910000 - 0x7c9c8000 	C:\windows\system32\ntdll.dll
+0x7c800000 - 0x7c901000 	C:\windows\system32\kernel32.dll
+0x77f40000 - 0x77feb000 	C:\windows\system32\ADVAPI32.dll
+0x77da0000 - 0x77e33000 	C:\windows\system32\RPCRT4.dll
+0x77f10000 - 0x77f21000 	C:\windows\system32\Secur32.dll
+0x7e390000 - 0x7e421000 	C:\windows\system32\USER32.dll
+0x77e40000 - 0x77e89000 	C:\windows\system32\GDI32.dll
+0x76340000 - 0x7635d000 	C:\windows\system32\IMM32.DLL
+0x7c340000 - 0x7c396000 	C:\Programmi\Java\jre6\bin\msvcr71.dll
+0x6d7f0000 - 0x6da9f000 	C:\Programmi\Java\jre6\bin\client\jvm.dll
+0x76b00000 - 0x76b2e000 	C:\windows\system32\WINMM.dll
+0x6d7a0000 - 0x6d7ac000 	C:\Programmi\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\Programmi\Java\jre6\bin\java.dll
+0x6d370000 - 0x6d399000 	C:\Programmi\Java\jre6\bin\jdwp.dll
+0x6d690000 - 0x6d696000 	C:\Programmi\Java\jre6\bin\npt.dll
+0x6d7e0000 - 0x6d7ef000 	C:\Programmi\Java\jre6\bin\zip.dll
+0x76bb0000 - 0x76bbb000 	C:\windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:3497 -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Programmi\Android\android-sdk\platforms\android-16\android.jar;C:\Programmi\Android\android-sdk\add-ons\addon-google_apis-google-16\libs\effects.jar;C:\Programmi\Android\android-sdk\add-ons\addon-google_apis-google-16\libs\usb.jar;C:\Programmi\Android\android-sdk\add-ons\addon-google_apis-google-16\libs\maps.jar 
+java_command: it.sssup.idontfall.EncryptAndDecrypt
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\Programmi\Java\jre6\lib\ext\QTJava.zip
+PATH=C:/Programmi/Java/jre6/bin/client;C:/Programmi/Java/jre6/bin;C:/Programmi/Java/jre6/lib/i386;C:\Programmi\PC Connectivity Solution\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;c:\programmi\matlab\bin\win32;C:\Programmi\File comuni\DivX Shared\;C:\Programmi\MATLAB\MATLAB Component Runtime\v77\runtime\win32;C:\Programmi\QuickTime\QTSystem\;C:\Programmi\On Time RTOS-32 4.0\Bin;C:\VISA\WinNTBin;C:\Programmi\Microsoft SQL Server\90\Tools\binn\;C:\Programmi\IVI Foundation\IVI\bin;C:\VXIPNP\WinNT\Bin\;C:\VXIPNP\WinNT\Bin;C:\Programmi\MATLAB\R2010b\runtime\win32;C:\Programmi\MATLAB\R2010b\bin;C:\Programmi\acontis_technologies\RTOS32Win\Bin\Windows\x86\;C:\Programmi\TortoiseSVN\bin;C:\Programmi\Microsoft Visual Studio\Common\Tools\WinNT;C:\Programmi\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Programmi\Microsoft Visual Studio\Common\Tools;C:\Programmi\Microsoft Visual Studio\VC98\bin;C:\Programmi\On Time RTOS-32 4.0\Bin;C:\Programmi\File comuni\Ahead\Lib\;C:\Programmi\File comuni\Ahead\Lib\;C:\Programmi\File comuni\Ahead\Lib\;C:\Programmi\File comuni\Ahead\Lib\;C:\Programmi\File comuni\Ahead\Lib\;C:\Programmi\File comuni\Ahead\Lib\;C:\Programmi\File comuni\Ahead\Lib\;C:\Documents and Settings\Admin\Desktop\Android\eclipse-SDK-3.7-win32\OLdJob\eclipse;
+USERNAME=Admin
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1
+
+Memory: 4k page, physical 3374052k(751388k free), swap 6580660k(2809204k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.6-b01) for windows-x86 JRE (1.6.0_31-b05), built on Feb  3 2012 18:44:09 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Wed Jun 12 11:30:15 2013
+elapsed time: 0 seconds
+

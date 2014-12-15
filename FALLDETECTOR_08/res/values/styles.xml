@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="styleName" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">#FF0000</item>
+        <item name="android:ems">10</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
